@@ -1,0 +1,105 @@
+@charset "utf-8";
+//自己写的css
+.body {
+	width: 100%;
+	margin: 15px;
+	border-top: 1px solid #EFECEC;
+}
+
+/* 样式面板
+	1.输入框组样式
+	2.表格样式
+ */
+.panel {
+	margin: 10px;
+}
+
+.projectName {
+	width:280px;
+	float:left;
+	padding: 10px 15px;
+}
+
+.projectLevel {
+	width: 320px;
+	float: left;
+	padding: 10px 15px;
+}
+
+.selectTitle{
+	width: 220px;
+	float: left;
+	padding: 10px 15px;
+}
+
+.selectYear {
+	padding: 10px 15px;
+}
+
+.selectYear .btn {
+	border-radius:0px;
+}
+/* .col-md-10 {
+	border: solid 1px red;
+} */
+
+.queryBtn {
+	float: right;
+	position: relative;
+	margin: 10px 40px 20px;
+}
+
+/* 修改modal中的样式 */
+.form-group  {
+	padding: 0px 50px;
+}
+
+
+.addBtn {
+	float: right;
+	margin-top:10px;
+}
+.lookBtn {
+	margin-right: 4px;
+}
+.teacherId select option {
+	margin: 10px;
+}
+.registerform label {
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+}
+/*设置验证输入框的大小*/
+.registerform input{
+	margin-bottom: 10px;
+	width:300px;
+}
+
+/*验证关闭按钮样式*/
+.registerform .closeBtn {	
+	backgroundColor:red;
+	margin-left:400px;
+	margin-right:20px;
+	background-color:red;
+	color:white;
+}
+.registerform .form-control {
+	display:inline-block;
+	
+}
+
+/*修改支持人下拉框中，主持人与右边下拉框的距离*/
+.marginRight {
+	margin-right: 28px;
+}
+#member-modal {
+	margin-top:15px;
+}
+
+/*增加栏中项目描述*/
+#description-add {
+	vertical-align:top;
+	width:300px;
+}

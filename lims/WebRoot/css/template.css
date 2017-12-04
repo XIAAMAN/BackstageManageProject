@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: '微软雅黑';
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	color: #eee;
+	border-bottom: 1px solid #F4F2F2;
+}
+
+.navbar-inner {
+	padding: 10px 20px;
+	border-radius: 0px;
+}
+
+.navbar .brand {
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 2.5em;
+	text-decoration: none;
+}
+
+.brand:hover{
+
+}
+
+#dashboard-menu > li.active > a,
+#dashboard-menu > li > a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.submenu {
+	padding: 10px 0px;
+}
+
+.submenu li{
+	margin-bottom: 10px;
+	width: 180px;
+	margin-left: -20px;
+	/*padding: 5px 0px;*/
+	text-align: center;
+}
+
+.submenu li:hover {
+	background-color: #337ab7;
+	color: white;
+}
+
+.submenu li>a {
+	color: rgba(51, 69, 90, 1);
+}
+
+.submenu li>a:hover {
+	color: #ffffff;
+}
+
+
+
+#sidebar-nav {
+    padding-top: 15px;
+}
+
+.submenu a{
+	font-size: 50px;
+}

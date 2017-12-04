@@ -1,0 +1,245 @@
+@charset "utf-8";
+//自己写的css
+.body {
+	width: 100%;
+	margin: 15px;
+	border-top: 1px solid #EFECEC;
+}
+
+/* 样式面板
+	1.输入框组样式
+	2.表格样式
+ */
+.panel {
+	margin: 10px;
+}
+
+.projectName {
+	width:280px;
+	float:left;
+	padding: 10px 15px;
+}
+
+/*查询框的样式*/
+.queryStyle {	
+	float:left;
+	padding: 10px 15px;
+}
+
+.projectLevel {
+	width: 280px;
+	float: left;
+	padding: 10px 15px;
+}
+
+.patentName {
+	width:240px;
+	float:left;
+	padding: 10px 15px;
+}
+
+.authorAll {
+	width:250px;
+	float:left;
+	padding: 10px 15px;
+}
+
+.patentType {
+	width:280px;
+	float:left;
+	padding: 10px 15px;
+}
+.teacherId {
+	width: 280px;
+	float: left;
+	padding: 10px 15px;
+}
+
+.selectYear {
+	padding: 10px 15px;
+}
+
+.selectYear .btn {
+	border-radius:0px;
+}
+/* .col-md-10 {
+	border: solid 1px red;
+} */
+
+.queryBtn {
+	float: right;
+	position: relative;
+	margin: 10px 40px 20px;
+}
+
+/* 修改modal中的样式 */
+.form-group  {
+	
+	padding: 0px 50px;
+}
+
+
+.addBtn {
+	float: right;
+	margin-top:10px;
+}
+.lookBtn {
+	margin-right: 4px;
+}
+.teacherId select option {
+	margin: 10px;
+}
+.modal-body label {
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+}
+
+/*特定修改输入框的大小*/
+.smallUpdate input[type="text"]{
+	margin-bottom: 10px;
+	width:300px;
+}
+
+/*增加输入框的大小*/
+.addModal input[type="text"],.addModal input[type="password"]{
+	margin-bottom: 10px;
+	width:300px;
+}
+/*一般修改输入框的大小*/
+.updateModal input[type="text"]{
+	margin-bottom: 10px;
+	width:400px;
+}
+/*查看中输入框的大小*/
+.lookModal input[type="text"]{
+	margin-bottom: 10px;
+	width:400px;
+}
+
+/*验证关闭按钮样式*/
+.registerform .closeBtn {	
+	backgroundColor:red;
+	margin-left:400px;
+	margin-right:20px;
+	background-color:red;
+	color:white;
+}
+.modal-body .form-control {
+	display:inline-block;
+	margin-top: 10px;
+}
+
+/*修改支持人下拉框中，主持人与右边下拉框的距离*/
+.marginRight {
+	margin-right: 28px;
+}
+
+/*增加栏中项目描述*/
+#description-add {
+	vertical-align:top;
+	width:300px;
+}
+
+/*开关按钮*/
+.switchButton {
+	border: none;
+	background: none;
+}
+/*论文修改多选框*/
+.paperUpdatecheckBox {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*论文类型 增加模态框*/
+.paperType-checkbox {
+	width:27px;
+	margin:20px 0;
+}
+
+/*文件描述链接样式*/
+.fileDescribleLink {
+	margin-left: 30px;
+}
+
+/*文件删除按钮样式*/
+.fileDeleteBtnStyle {
+	margin-left: 30px;
+	
+}	      
+
+/*多列显示在一行的样式*/
+.twoColsInput{
+	margin-left:5px;
+	float: left;
+}     
+
+.twoColsInput label{
+	width: 60px;
+	text-align: right;
+} 
+
+/*显示附件与图片的div*/
+div.enclosuresShow {
+	margin-left: 110px;
+}
+/*是否置顶的样式*/
+.isTopStyle{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}   
+
+/*是否置顶与开关的距离*/
+.isTopStyleSpan {
+	margin-left: 20px;
+	margin-right: 20px;
+}         
+
+/*修改框中附件的样式*/
+.updateFileLabelStyle{
+	width: 60px;
+	text-align:right;
+	margin-top:20px;
+	margin-bottom: 10px;
+}   
+
+/*查看中内容或简介的样式*/
+.lookDescription {
+	padding: 10px;
+	min-height:100px;
+	border:2px #ccc solid;
+	border-radius:15px;
+	max-height: 500px;
+	overflow: auto;	
+}
+
+/*当内容过长隐藏显示,小标题*/
+label.titleLabel{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+	max-width: 200px;
+}
+
+/*当内容过长隐藏显示,大标题*/
+label.titleLabelMax{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+	max-width: 300px;
+}
+
+.table th {
+	color: #205A91;
+	
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*重置按钮样式*/
+.resetPasswordBtn{
+	margin-right: 5px;
+}
